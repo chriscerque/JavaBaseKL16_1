@@ -1,0 +1,18 @@
+package net.ent.etrs.voiture.model.daos;
+
+import net.ent.etrs.voiture.model.daos.exceptions.DaoException;
+import net.ent.etrs.voiture.model.entities.Voiture;
+
+import java.util.List;
+
+public interface DaoVoiture {
+
+    Voiture create(final Voiture voiture) throws DaoException;
+    Voiture update(final Voiture voiture) throws DaoException;
+    Voiture read(final String numSerie);
+    void delete(final String numSerie) throws DaoException;
+    List<Voiture> readAll();
+
+
+    boolean exist(Voiture voiture) throws DaoException;
+}
