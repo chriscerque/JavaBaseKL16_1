@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7879b353-19af-4da3-98f3-2789dc2d3f91" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/javabase/test/JavaBaseKL16_1/KL16_VOITURE_SIMON",
+    "last_opened_file_path": "E:/java/KL16/Tests/JavaBaseKL16_1/KL16_VOITURE_SIMON",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -64,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669126806873</updated>
       <workItem from="1669126808846" duration="1381000" />
+      <workItem from="1669471713619" duration="1651000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <created>1669126841666</created>
