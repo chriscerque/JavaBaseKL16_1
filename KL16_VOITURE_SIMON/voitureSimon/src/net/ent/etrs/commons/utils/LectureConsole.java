@@ -1,7 +1,5 @@
 package net.ent.etrs.commons.utils;
 
-import net.ent.etrs.voiture.commons.utils.AffichageConsole;
-
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

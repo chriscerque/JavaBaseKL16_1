@@ -1,18 +1,17 @@
 package net.ent.etrs.model.facades;
 
-import net.ent.etrs.model.facades.exceptions.BusinessException;
-import net.ent.etrs.voiture.model.daos.DaoFactory;
-import net.ent.etrs.voiture.model.daos.DaoVoiture;
-import net.ent.etrs.voiture.model.daos.exceptions.DaoException;
-import net.ent.etrs.voiture.model.entities.AbstractEntity;
-import net.ent.etrs.voiture.model.entities.EntitiesFactory;
-import net.ent.etrs.voiture.model.entities.Piece;
-import net.ent.etrs.voiture.model.entities.Voiture;
-import net.ent.etrs.voiture.model.entities.exceptions.ConstructionPieceException;
-import net.ent.etrs.voiture.model.entities.references.Couleur;
-import net.ent.etrs.voiture.model.entities.references.TypePiece;
 
-import java.util.Collections;
+import net.ent.etrs.model.daos.DaoFactory;
+import net.ent.etrs.model.daos.DaoVoiture;
+import net.ent.etrs.model.daos.exceptions.DaoException;
+import net.ent.etrs.model.entities.EntitiesFactory;
+import net.ent.etrs.model.entities.Piece;
+import net.ent.etrs.model.entities.Voiture;
+import net.ent.etrs.model.entities.exceptions.ConstructionPieceException;
+import net.ent.etrs.model.entities.references.Couleur;
+import net.ent.etrs.model.entities.references.TypePiece;
+import net.ent.etrs.model.facades.exceptions.BusinessException;
+
 import java.util.List;
 
 /**

@@ -2,8 +2,6 @@ package net.ent.etrs.model.entities.references;
 
 
 import net.ent.etrs.voiture.model.entities.exceptions.TypePieceException;
-import net.ent.etrs.voiture.model.entities.references.FamilleTypePiece;
-
 
 import java.util.List;
 

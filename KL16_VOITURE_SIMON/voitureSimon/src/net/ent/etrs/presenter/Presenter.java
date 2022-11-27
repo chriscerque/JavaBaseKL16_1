@@ -6,7 +6,6 @@ import net.ent.etrs.voiture.model.facades.FacadeMetier;
 import net.ent.etrs.voiture.model.facades.FacadeMetierFactory;
 import net.ent.etrs.voiture.view.ConstantesView;
 
-import java.net.FileNameMap;
 import java.util.Arrays;
 
 public class Presenter {

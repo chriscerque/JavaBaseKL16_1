@@ -1,10 +1,8 @@
 package net.ent.etrs.model.daos;
 
-import net.ent.etrs.voiture.model.daos.exceptions.DaoException;
-import net.ent.etrs.voiture.model.entities.Piece;
-import net.ent.etrs.voiture.model.entities.Voiture;
-import net.ent.etrs.voiture.model.entities.references.Couleur;
-import net.ent.etrs.voiture.model.entities.references.TypePiece;
+
+import net.ent.etrs.model.daos.exceptions.DaoException;
+import net.ent.etrs.model.entities.Voiture;
 
 import java.util.List;
 

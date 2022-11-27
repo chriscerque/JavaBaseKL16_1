@@ -1,11 +1,11 @@
 package net.ent.etrs.model.facades;
 
 
+import net.ent.etrs.model.entities.Piece;
+import net.ent.etrs.model.entities.Voiture;
+import net.ent.etrs.model.entities.references.Couleur;
+import net.ent.etrs.model.entities.references.TypePiece;
 import net.ent.etrs.model.facades.exceptions.BusinessException;
-import net.ent.etrs.voiture.model.entities.Piece;
-import net.ent.etrs.voiture.model.entities.Voiture;
-import net.ent.etrs.voiture.model.entities.references.Couleur;
-import net.ent.etrs.voiture.model.entities.references.TypePiece;
 
 import java.util.List;
 
