@@ -1,10 +1,11 @@
 package net.ent.etrs.presenter;
 
-import net.ent.etrs.voiture.commons.utils.AffichageConsole;
-import net.ent.etrs.voiture.commons.utils.LectureConsole;
-import net.ent.etrs.voiture.model.facades.FacadeMetier;
-import net.ent.etrs.voiture.model.facades.FacadeMetierFactory;
-import net.ent.etrs.voiture.view.ConstantesView;
+
+import net.ent.etrs.commons.utils.AffichageConsole;
+import net.ent.etrs.commons.utils.LectureConsole;
+import net.ent.etrs.model.facades.FacadeMetier;
+import net.ent.etrs.model.facades.FacadeMetierFactory;
+import net.ent.etrs.view.ConstantesView;
 
 import java.util.Arrays;
 
