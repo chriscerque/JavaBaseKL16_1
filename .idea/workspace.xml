@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7879b353-19af-4da3-98f3-2789dc2d3f91" name="Changes" comment="Initial commit">
+    <list default="true" id="7879b353-19af-4da3-98f3-2789dc2d3f91" name="Changes" comment="correction enum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaremeJavaBaseTest1_KL16.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/BaremeJavaBaseTest1_KL16.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KL16_VOITURE_SANTOS/net/ent/etrs/model/entities/EntitiesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/KL16_VOITURE_SANTOS/net/ent/etrs/model/entities/EntitiesFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KL16_VOITURE_SANTOS/net/ent/etrs/model/entities/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/KL16_VOITURE_SANTOS/net/ent/etrs/model/entities/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KL16_VOITURE_SANTOS/net/ent/etrs/model/entities/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/KL16_VOITURE_SANTOS/net/ent/etrs/model/entities/Voiture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KL16_VOITURE_SIMON/voitureSimon/src/net/ent/etrs/model/entities/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/KL16_VOITURE_SIMON/voitureSimon/src/net/ent/etrs/model/entities/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KL16_VOITURE_SIMON/voitureSimon/src/net/ent/etrs/model/entities/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/KL16_VOITURE_SIMON/voitureSimon/src/net/ent/etrs/model/entities/Voiture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,6 +31,9 @@
         <option name="userSettingsFile" value="D:\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2HuEwDqMFQMWgj2uZsmlL9allTQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,10 +55,12 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/java/KL16/Tests/JavaBaseKL16_1/KL16_VOITURE_SIMON/voitureSimon/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669126806873</updated>
       <workItem from="1669126808846" duration="1381000" />
-      <workItem from="1669471713619" duration="5630000" />
+      <workItem from="1669471713619" duration="14056000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <created>1669126841666</created>
@@ -114,7 +127,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669543736710</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1669546936177</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669546936177</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1669556036736</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669556036736</updated>
+    </task>
+    <task id="LOCAL-00009" summary="correction entities">
+      <created>1669556074820</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669556074820</updated>
+    </task>
+    <task id="LOCAL-00010" summary="correction enum">
+      <created>1669558234610</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669558234610</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +189,8 @@
     </ignored-roots>
     <MESSAGE value="i" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="correction entities" />
+    <MESSAGE value="correction enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction enum" />
   </component>
 </project>

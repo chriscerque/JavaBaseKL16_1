@@ -1,10 +1,8 @@
 package net.ent.etrs.voiture.model.entities;
 
+import net.ent.etrs.voiture.model.entities.exceptions.PieceException;
 import net.ent.etrs.voiture.model.entities.references.Constantes;
 import net.ent.etrs.voiture.model.entities.references.TypePiece;
-import net.ent.etrs.model.entities.exceptions.PieceException;
-
-import java.util.List;
 
 public class Piece extends AbstractEntity {
 

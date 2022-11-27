@@ -1,8 +1,9 @@
 package net.ent.etrs.model.entities;
 
-import net.ent.etrs.voiture.model.entities.exceptions.*;
-import net.ent.etrs.voiture.model.entities.references.Couleur;
-import net.ent.etrs.voiture.model.entities.references.TypePiece;
+
+import net.ent.etrs.model.entities.exceptions.*;
+import net.ent.etrs.model.entities.references.Couleur;
+import net.ent.etrs.model.entities.references.TypePiece;
 
 import java.util.List;
 

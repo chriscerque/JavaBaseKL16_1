@@ -1,20 +1,15 @@
 package net.ent.etrs.model.entities;
 
 
-import net.ent.etrs.voiture.model.entities.AbstractEntity;
-import net.ent.etrs.voiture.model.entities.exceptions.NumSerieException;
-import net.ent.etrs.voiture.model.entities.exceptions.VoitureException;
-import net.ent.etrs.voiture.model.entities.references.ConstantesMetier;
-import net.ent.etrs.voiture.model.entities.references.Couleur;
-
+import net.ent.etrs.model.entities.exceptions.NumSerieException;
+import net.ent.etrs.model.entities.exceptions.VoitureException;
+import net.ent.etrs.model.entities.references.ConstantesMetier;
+import net.ent.etrs.model.entities.references.Couleur;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
-
-import static net.ent.etrs.voiture.model.entities.references.ConstantesMetier.MARQUE_TAILLE_MAX;
-import static net.ent.etrs.voiture.model.entities.references.ConstantesMetier.MARQUE_TAILLE_MIN;
 
 /**
  * The type Voiture.

@@ -1,11 +1,12 @@
 package net.ent.etrs.voiture.model.entities;
 
+
+import net.ent.etrs.voiture.model.entities.exceptions.NumSerieException;
+import net.ent.etrs.voiture.model.entities.exceptions.PieceException;
+import net.ent.etrs.voiture.model.entities.exceptions.VoitureException;
 import net.ent.etrs.voiture.model.entities.references.Couleur;
-import net.ent.etrs.model.entities.exceptions.VoitureException;
-import net.ent.etrs.model.entities.exceptions.NumSerieException;
 import net.ent.etrs.voiture.model.entities.references.TypePiece;
 
-import java.time.LocalDate;
 import java.util.List;
 
 public class EntitiesFactory {
@@ -26,7 +27,8 @@ public class EntitiesFactory {
         voiture.getPiece(piece) ;
         return voiture;
     }
-    public static Piece fabriquerPiece(String  numSerie, TypePiece piece) throws net.ent.etrs.model.entities.exceptions.PieceException, NumSerieException {
+    public static Piece fabriquerPiece(String  numSerie, TypePiece piece) throws
+            PieceException, NumSerieException {
         Piece piece1 = new Piece(numSerie, piece);
 
         return piece1;

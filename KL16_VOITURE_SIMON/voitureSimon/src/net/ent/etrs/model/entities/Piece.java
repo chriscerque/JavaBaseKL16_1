@@ -1,12 +1,10 @@
 package net.ent.etrs.model.entities;
 
 
-import net.ent.etrs.voiture.model.entities.AbstractEntity;
-import net.ent.etrs.voiture.model.entities.exceptions.NumSerieException;
-import net.ent.etrs.voiture.model.entities.exceptions.PieceException;
-import net.ent.etrs.voiture.model.entities.exceptions.VoitureException;
-import net.ent.etrs.voiture.model.entities.references.ConstantesMetier;
-import net.ent.etrs.voiture.model.entities.references.TypePiece;
+import net.ent.etrs.model.entities.exceptions.NumSerieException;
+import net.ent.etrs.model.entities.exceptions.PieceException;
+import net.ent.etrs.model.entities.references.ConstantesMetier;
+import net.ent.etrs.model.entities.references.TypePiece;
 
 import java.util.Objects;
 

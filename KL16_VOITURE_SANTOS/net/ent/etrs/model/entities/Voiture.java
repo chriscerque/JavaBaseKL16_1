@@ -1,10 +1,9 @@
 package net.ent.etrs.voiture.model.entities;
 
+import net.ent.etrs.voiture.model.entities.exceptions.VoitureException;
 import net.ent.etrs.voiture.model.entities.references.Constantes;
 import net.ent.etrs.voiture.model.entities.references.Couleur;
-import net.ent.etrs.model.entities.exceptions.VoitureException;
 
-import java.util.Collections;
 import java.util.List;
 
 public class Voiture extends AbstractEntity {
