@@ -1,5 +1,6 @@
 package net.ent.etrs.voiture.model.entities;
-import net.ent.etrs.model.entities.exceptions.NumSerieException;
+
+import net.ent.etrs.voiture.model.entities.exceptions.NumSerieException;
 import net.ent.etrs.voiture.model.entities.references.Constantes;
 
 import java.util.Objects;

@@ -1,8 +1,8 @@
 package net.ent.etrs.model.entities;
 
 
-import net.ent.etrs.voiture.model.entities.exceptions.NumSerieException;
-import net.ent.etrs.voiture.model.entities.references.ConstantesMetier;
+import net.ent.etrs.model.entities.exceptions.NumSerieException;
+import net.ent.etrs.model.entities.references.ConstantesMetier;
 
 import java.util.Objects;
 
