@@ -1,5 +1,6 @@
 package net.ent.etrs.voiture.model.entities;
 
+import net.ent.etrs.voiture.model.entities.exceptions.NumSerieException;
 import net.ent.etrs.voiture.model.entities.exceptions.VoitureException;
 import net.ent.etrs.voiture.model.entities.references.Constantes;
 import net.ent.etrs.voiture.model.entities.references.Couleur;
@@ -18,7 +19,7 @@ public class Voiture extends AbstractEntity {
 
 
 
-    public Voiture(String numSerie, String marque, String model) throws VoitureException, net.ent.etrs.model.entities.exceptions.NumSerieException {
+    public Voiture(String numSerie, String marque, String model) throws VoitureException, NumSerieException {
         super(numSerie);
         setMarque (marque);
         setModel( model);
