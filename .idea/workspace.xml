@@ -24,7 +24,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2HuEwDqMFQMWgj2uZsmlL9allTQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,12 +35,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/java/KL16/Tests/JavaBaseKL16_1/KL16_VOITURE_SIMON",
+    "last_opened_file_path": "E:/java/KL16/Tests/JavaBaseKL16_1/KL16_VOITURE_SIMON/voitureSimon/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -47,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\KL16\Tests\JavaBaseKL16_1\KL16_VOITURE_SIMON\voitureSimon\src" />
       <recent name="D:\javabase\test\JavaBaseKL16_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -64,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669126806873</updated>
       <workItem from="1669126808846" duration="1381000" />
-      <workItem from="1669471713619" duration="1651000" />
+      <workItem from="1669471713619" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="i">
       <created>1669126841666</created>
@@ -94,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669127855865</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1669476618246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669476618246</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/../KL16_VOITURE_AUDURIER" />
       <path value="$PROJECT_DIR$/../KL16_VOITURE_BONNIER" />
