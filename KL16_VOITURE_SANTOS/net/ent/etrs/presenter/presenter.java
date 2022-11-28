@@ -1,8 +1,11 @@
 package net.ent.etrs.voiture.presenter;
 
 
+import net.ent.etrs.model.facades.exceptions.BusinessException;
 import net.ent.etrs.voiture.model.entities.EntitiesFactory;
 import net.ent.etrs.voiture.model.entities.Voiture;
+import net.ent.etrs.voiture.model.entities.exceptions.NumSerieException;
+import net.ent.etrs.voiture.model.entities.exceptions.VoitureException;
 import net.ent.etrs.voiture.model.entities.references.Constantes;
 import net.ent.etrs.voiture.model.entities.references.Couleur;
 import net.ent.etrs.voiture.model.entities.references.FamilleTypePiece;
@@ -20,7 +23,7 @@ public class presenter {
     private static FacadeMetier facadeMetier;
 
 
-    public static void main(String[] args) throws net.ent.etrs.model.entities.exceptions.VoitureException, net.ent.etrs.model.entities.exceptions.NumSerieException, net.ent.etrs.model.facades.exceptions.BusinessException {
+    public static void main(String[] args) throws VoitureException, NumSerieException, BusinessException {
 
         int choix = 0;
         do {
@@ -32,7 +35,7 @@ public class presenter {
         } while (choix != 0);
     }
 
-    private static void traiterOption(int choix) throws net.ent.etrs.model.entities.exceptions.VoitureException, net.ent.etrs.model.entities.exceptions.NumSerieException, net.ent.etrs.model.facades.exceptions.BusinessException {
+    private static void traiterOption(int choix) throws VoitureException, NumSerieException, BusinessException {
         switch (choix) {
             case 1:
                 creerVoiture();
@@ -71,7 +74,7 @@ public class presenter {
     }
 
 
-    private static   void creerVoiture() throws net.ent.etrs.model.entities.exceptions.VoitureException, net.ent.etrs.model.entities.exceptions.NumSerieException, net.ent.etrs.model.facades.exceptions.BusinessException {
+    private static   void creerVoiture() throws VoitureException, NumSerieException, BusinessException {
 
         Voiture nouvelleVoiture = presenter.saisirVoiture();
         List<String> lstPiece = new ArrayList<>();
@@ -80,7 +83,7 @@ public class presenter {
         metier.creerVoiture(nouvelleVoiture.getNumSerie(),nouvelleVoiture.getMarque(),nouvelleVoiture.getModel(),nouvelleVoiture.getCouleur());
     }
 
-    private static Voiture saisirVoiture() throws net.ent.etrs.model.entities.exceptions.VoitureException, net.ent.etrs.model.entities.exceptions.NumSerieException {
+    private static Voiture saisirVoiture() throws VoitureException, NumSerieException {
 
         String numSerie = LectureConsole.lectureChaineCaracteres("Entrer Numero de serie ?");
 

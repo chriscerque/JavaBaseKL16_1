@@ -1,7 +1,7 @@
 package net.ent.etrs.voiture.model.entities.references;
 
-import net.ent.etrs.model.entities.exceptions.TypePieceException;
 
+import net.ent.etrs.voiture.model.entities.exceptions.TypePieceException;
 
 import java.util.List;
 
